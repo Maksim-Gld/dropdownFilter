@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", (event) => {
 /*button filter*/
 let openDropdown = function (elem) {
     actionDropdown(elem);
@@ -170,3 +171,4 @@ function checkIsScroll(elem, elemContainer, changeTab) {
     }
     checkShadow(elemContainer);
 }
+});
