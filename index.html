@@ -10,23 +10,22 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 </head>
-
 <body>
     <div class="main-block flex-block">
         <div class="search-block">
-            <p>Локация</p>
+            <p>Location</p>
             <div class="search-filter" id="js-filter-block" data-block_class="filter-dropdown">
                 <div id="js-filter-button" class="filter-button flex-block flex-block_vcenter radius-block">
                     <img class="ico-search" src="img/ico-search.svg" alt="filter">
-                    <div class="filter-placeholder">ЖК, Округ, район, метро</div>
+                    <div class="filter-placeholder">Area, District, Station</div>
                     <div class="filter-size radius-block_full flex-block flex-block_center">5</div>
                 </div>
                 <div class="filter-dropdown radius-block">
                     <div class="filter-tabs flex-block flex-block_vcenter">
-                        <div class="tab-item active flex-block flex-block_center" data-target-id="0">Жк</div>
-                        <div class="tab-item flex-block flex-block_center" data-target-id="1">Округ</div>
-                        <div class="tab-item flex-block flex-block_center" data-target-id="2">Район</div>
-                        <div class="tab-item flex-block flex-block_center" data-target-id="3">Метро</div>
+                        <div class="tab-item active flex-block flex-block_center" data-target-id="0">Residential</div>
+                        <div class="tab-item flex-block flex-block_center" data-target-id="1">Area</div>
+                        <div class="tab-item flex-block flex-block_center" data-target-id="2">District</div>
+                        <div class="tab-item flex-block flex-block_center" data-target-id="3">Station</div>
                     </div>
                     <!--temp block contaoner for grid-->
                     <div class="filter-selected-container">
@@ -41,65 +40,65 @@
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="akadem" data-idname="akadem" data-target-id="0"
-                                        value="Академический">
-                                    <span>Академический</span>
+                                        value="Central">
+                                    <span>Central</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="basm" data-idname="basm" data-target-id="0"
-                                        value="Басманный">
-                                    <span>Басманный</span>
+                                        value="Park">
+                                    <span>Park</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="zamoskv" data-idname="zamoskv" data-target-id="0"
-                                        value="Замоскворечье">
-                                    <span>Замоскворечье</span>
+                                        value="River">
+                                    <span>River</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="izmayl" data-idname="izmayl" data-target-id="0"
-                                        value="Измайлово">
-                                    <span>Измайлово</span>
+                                        value="Aeroport">
+                                    <span>Aeroport</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="lubl" data-idname="lubl" data-target-id="0"
-                                        value="Люблино">
-                                    <span>Люблино</span>
+                                        value="Univers">
+                                    <span>Univers</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="akademnew" data-idname="akademnew" data-target-id="0"
-                                        value="Академический New">
-                                    <span>Академический New</span>
+                                        value="Univers Science">
+                                    <span>Univers Science</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="basmnew" data-idname="basmnew" data-target-id="0"
-                                        value="Басманный New">
-                                    <span>Басманный New</span>
+                                        value="Campus">
+                                    <span>Campus</span>
                                 </label>
                             </div>
 
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="oldtown" data-idname="oldtown" data-target-id="0"
-                                        value="Старинный">
-                                    <span>Старинный</span>
+                                        value="Old">
+                                    <span>Old</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="castle" data-idname="castle" data-target-id="0"
-                                        value="Замок">
-                                    <span>Замок</span>
+                                        value="Castle">
+                                    <span>Castle</span>
                                 </label>
                             </div>
                         </div>
@@ -107,50 +106,50 @@
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="cnt" data-idname="cnt" data-target-id="1"
-                                        value="Центральный">
-                                    <span>Центральный</span>
+                                        value="Center">
+                                    <span>Center</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="north" data-idname="north" data-target-id="1"
-                                        value="Северный">
-                                    <span>Северный</span>
+                                        value="North">
+                                    <span>North</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="west" data-idname="west" data-target-id="1"
-                                        value="Западный">
-                                    <span>Западный</span>
+                                        value="West">
+                                    <span>West</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="south" data-idname="south" data-target-id="1"
-                                        value="Южный">
-                                    <span>Южный</span>
+                                        value="South">
+                                    <span>South</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="east" data-idname="east" data-target-id="1"
-                                        value="Восточный">
-                                    <span>Восточный</span>
+                                        value="East">
+                                    <span>East</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="prigorod" data-idname="prigorod" data-target-id="1"
-                                        value="Пригород">
-                                    <span>Пригород</span>
+                                        value="Downtown">
+                                    <span>Downtown</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="mkad" data-idname="mkad" data-target-id="1"
-                                        value="МКАД">
-                                    <span>МКАД</span>
+                                        value="RoadC">
+                                    <span>RoadC</span>
                                 </label>
                             </div>
                         </div>
@@ -158,36 +157,36 @@
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="region1" data-idname="region1" data-target-id="2"
-                                        value="Район 1">
-                                    <span>Район 1</span>
+                                        value="District 1">
+                                    <span>District 1</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="region2" data-idname="region2" data-target-id="2"
-                                        value="Район 2">
-                                    <span>Район 2</span>
+                                        value="District 2">
+                                    <span>District 2</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" disabled name="region3" data-idname="region3"
-                                        data-target-id="2" value="Район 3">
-                                    <span>Район 3</span>
+                                        data-target-id="2" value="District 3">
+                                    <span>District 3</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="region4" data-idname="region4" data-target-id="2"
-                                        value="Район 4">
-                                    <span>Район 4</span>
+                                        value="District 4">
+                                    <span>District 4</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="region5" data-idname="region5" data-target-id="2"
-                                        value="Район 5">
-                                    <span>Район 5</span>
+                                        value="District 5">
+                                    <span>District 5</span>
                                 </label>
                             </div>
                         </div>
@@ -195,43 +194,43 @@
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="line1" data-idname="line1" data-target-id="3"
-                                        value="Линия 1">
-                                    <span>Линия 1</span>
+                                        value="Line 1">
+                                    <span>Line 1</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="line2" data-idname="line2" data-target-id="3"
-                                        value="Линия 2">
-                                    <span>Линия 2</span>
+                                        value="Line 2">
+                                    <span>Line 2</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="line3" data-idname="line3" data-target-id="3"
-                                        value="Линия 3">
-                                    <span>Линия 3</span>
+                                        value="Line 3">
+                                    <span>Line 3</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="line4" data-idname="line4" data-target-id="3"
-                                        value="Линия 4">
-                                    <span>Линия 4</span>
+                                        value="Line 4">
+                                    <span>Line 4</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="line5" data-idname="line5" data-target-id="3"
-                                        value="Линия 5">
-                                    <span>Линия 5</span>
+                                        value="Line 5">
+                                    <span>Line 5</span>
                                 </label>
                             </div>
                             <div class="options-item">
                                 <label class="custom-checkbox flex-block">
                                     <input type="checkbox" name="line6" data-idname="line6" data-target-id="3"
-                                        value="Линия 6">
-                                    <span>Линия 6</span>
+                                        value="Line 6">
+                                    <span>Line 6</span>
                                 </label>
                             </div>
                         </div>
